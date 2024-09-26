@@ -1,0 +1,83 @@
+
+.header {
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    gap: 0px;
+    margin-bottom: 15px;
+}
+.all_labs{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); 
+    gap: 10px; 
+   
+}
+button{
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.all_labs button.active{
+    background-color: #ccc;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #ccc;
+    font-weight: bold;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+#student-photo {
+    border: 2px dashed #ccc;
+    width: 150px;
+    height: 190px;
+    float: right;
+}
+
+.sidebar {
+    margin: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+
+.output {
+    border: 2px solid #ccc;
+    padding: 10px;
+    height: 300px; 
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #333;
+}
+
+.main_part {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
