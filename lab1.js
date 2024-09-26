@@ -47,8 +47,8 @@ function content_load(buttonId) {
     <a href ="https://github.com/OleksiiAnokhin2023/IS-31_Anokhin_sr1.git" target="_blank">репозиторій</a> і
     <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_sr1" target="_blank">живий сайт</a> <br> <br> 
 Звіт_html:
-    <a href ="https://github.com/OleksiiAnokhin2023/IS-31_Anokhin_sr1.git" target="_blank">репозиторій</a> і
-    <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_sr1" target="_blank">живий сайт</a> <br> <br> 
+    <a href ="https://github.com/OleksiiAnokhin2023/IS-31_Anokhin_report_html.git" target="_blank">репозиторій</a> і
+    <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_report_html" target="_blank">живий сайт</a> <br> <br> 
 `;
             break;
         case 'btn3':
