@@ -48,22 +48,10 @@ button:active {
 .sidebar {
     margin: 20px;
 }
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
 .sidebar button {
     width: 100%;
     background-color: #f0f0f0;
 }
-
-
 .output {
     border: 2px solid #ccc;
     padding: 10px;
