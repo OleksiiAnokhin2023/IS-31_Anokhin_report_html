@@ -44,7 +44,7 @@ function content_load(buttonId) {
 ЛР_2:
 
     <a href ="https://github.com/OleksiiAnokhin2023/IS-31_Anokhin_laba_3.git" target="_blank">репозиторій</a>  і
-    <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_laba_1" target="_blank">живий сайт</a> <br><br>   
+    <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_laba_3/" target="_blank">живий сайт</a> <br><br>   
 Звіт_html:
     <a href ="https://github.com/OleksiiAnokhin2023/IS-31_Anokhin_report_html.git" target="_blank">репозиторій</a> і
     <a href ="https://oleksiianokhin2023.github.io/IS-31_Anokhin_report_html" target="_blank">живий сайт</a> <br> <br>`;
