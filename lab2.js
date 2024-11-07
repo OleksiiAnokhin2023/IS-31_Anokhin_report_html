@@ -56,7 +56,7 @@ function content_load(buttonId) {
 `;
             break;
         case 'btn3':
-            content = `<textarea rows="15" cols="80">table {
+            content = `<textarea rows="150" cols="90">table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -97,15 +97,178 @@ function content_load(buttonId) {
   </textarea>`;
             break;
         case 'btn4':
-            content = `<textarea rows="15" cols="80">
+            content = `
+            <img src="img/lab1/image2.png" alt="" style="width:900px;"><br>
+            <img src="img/lab1/image2.2.png" alt="" style="width:900px;"><br>
+            <img src="img/lab1/image2.3.png" alt="" style="width:900px;"><br>
+            <textarea rows="15" cols="80">
+             <table>
+            <tr>
+                <th>Модель</th>
+                <th>тип</th>
+                <th>дальнобойность</th>
+                <th>точность</th>
+                <th>дополнительное снаряжение</th>
+                <th>начало експлоутации</th>
+            </tr>
+            <tr>
+                <td>M4 Carbine</td>
+                <td>Карабин</td>
+                <td>500-600 метров (эффективная)</td>
+                <td>Высокая на коротких и средних дистанциях</td>
+                <td>Оптические прицелы, глушитель, подствольный гранатомет M203, лазерные целеуказатели</td>
+                <td>1994 год</td>
+            </tr>
+            <tr>
+                <td>M16A4 Rifle</td>
+                <td>Автоматическая винтовка</td>
+                <td>550 метров (эффективная)</td>
+                <td>Высокая на средних и дальних дистанциях</td>
+                <td>Оптические прицелы ACOG, лазерные целеуказатели, глушитель</td>
+                <td>1997 год</td>
+            </tr>
+            <tr>
+                <td>M249 SAW (Squad Automatic Weapon)</td>
+                <td>Легкий пулемет</td>
+                <td>800 метров (эффективная)</td>
+                <td>Средняя</td>
+                <td>Оптический прицел, лазерные целеуказатели, складной сошник</td>
+                <td>1984 год</td>
+            </tr>
+            <tr>
+                <td>M2010 Enhanced Sniper Rifle</td>
+                <td>Снайперская винтовка</td>
+                <td>1200 метров (эффективная)</td>
+                <td>Очень высокая</td>
+                <td>Оптический прицел, глушитель ,  сошник</td>
+                <td>2010 год</td>
+            </tr>
+            <tr>
+                <td>M2010 Enhanced Sniper Rifle</td>
+                <td>Снайперская винтовка</td>
+                <td>1200 метров (эффективная)</td>
+                <td>Очень высокая</td>
+                <td>Оптический прицел, глушитель, сошник</td>
+                <td>2010 год</td>
+            </tr>
+        </table>
+            table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
              td, th {
     border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
     }
+        <p>
+        <mark style="font-size: 180%"><strong >Основные роли в батальоне</strong></mark>
+    <ol>
+            <li><b> Командир батальона <small>(Battalion Commander)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Подполковник <small>(Lieutenant Colonel)</small></li>
+                <li><i>Ответственность:</i> Общее командование батальоном, принятие решений по тактике и стратегии, взаимодействие с вышестоящими командующими.</li>
+            </ul>
+            <li><b>Заместитель командира батальона <small> (Executive Officer, XO)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Майор <small>(Major)</small></li>
+                <li><i>Ответственность:</i> Административное управление, помощь командиру батальона, координация работы штабного персонала.</li>
+            </ul>
+            <li> <b>Сержант-майор батальона <small>(Command Sergeant Major)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Сержант-майор <sup>(Command Sergeant Major)</sup></li>  
+                <li><i>Ответственность:</i> Руководство сержантами, поддержание дисциплины и стандартов выполнения задач, советник командира по вопросам личного состава.</li> 
+            </ul>
+            <li><b>Офицер по операциям <small>(Operations Officer, S3)</small>:</b></li>
+            <ul>
+                <li> <i>Звание:</i> Майор или капитан <small>(Major/Captain)</small></li>
+                <li><i>Ответственность:</i> Планирование и координация операций, разработка тактических планов, управление учениями и тренировками.</li>
+            </ul>
+            <li><b>Офицер по логистике <small>(Logistics Officer, S4):</small></b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан <small>(Captain)</small></li>
+                <li><i>Ответственность:</i> Управление снабжением, транспортом и материально-техническим обеспечением батальона.</li>
+            </ul>
+            <li><b>Офицер по разведке <small>(Intelligence Officer, S2)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Сбор и анализ разведывательной информации, обеспечение безопасности информации.</li>
+            </ul>
+            <li><b>Офицер по персоналу <small>(Personnel Officer, S1)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Управление кадровыми вопросами, администрирование личного состава, моральное состояние солдат.</li>
+            </ul>
+            <li> <b>Офицер по гражданским делам <small>(Civil Affairs Officer)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Координация взаимодействия с гражданским населением и местными властями в зоне операций.</li>
+            </ul>
+    </ol>
+
+        <mark style="font-size: 180%"><strong >Структура батальона</strong></mark>
+    Батальон обычно включает несколько рот:  
+        Командная рота (Headquarters Company):
+        
+        Обеспечивает <a href="https://ru.wikipedia.org/wiki/%D0%A8%D1%82%D0%B0%D0%B1">штабные функции</a>x и поддержку командования.
+        Включает секции по планированию, связи и управлению огнём.
+        Боевые роты (Line Companies):
+        
+        Несколько рот, в зависимости от типа батальона (например, пехотный, танковый).
+        Каждая рота выполняет свои специализированные задачи, такие как штурмовые действия или оборона.
+        Подразделения поддержки (Support Units):
+        
+        Могут включать медиков, инженеров и артиллерийские подразделения, обеспечивающие боевую и техническую поддержку.
+        Дополнительные ключевые роли
+        Старший медицинский офицер (Senior Medical Officer): Управляет медицинской службой батальона, обеспечивает медицинскую помощь.
+        Офицер по связи (Communications Officer): Обеспечивает связь и координацию внутри батальона и с вышестоящими подразделениями.
+        Батальон действует как целостная единица, где каждая роль и подразделение дополняют друг друга, обеспечивая эффективность и боеспособность в различных условиях.</p>
       p{
     font-family: Verdana,sans-serif;
   }
+    <ol>
+            <li><b> Командир батальона <small>(Battalion Commander)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Подполковник <small>(Lieutenant Colonel)</small></li>
+                <li><i>Ответственность:</i> Общее командование батальоном, принятие решений по тактике и стратегии, взаимодействие с вышестоящими командующими.</li>
+            </ul>
+            <li><b>Заместитель командира батальона <small> (Executive Officer, XO)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Майор <small>(Major)</small></li>
+                <li><i>Ответственность:</i> Административное управление, помощь командиру батальона, координация работы штабного персонала.</li>
+            </ul>
+            <li> <b>Сержант-майор батальона <small>(Command Sergeant Major)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Сержант-майор <sup>(Command Sergeant Major)</sup></li>  
+                <li><i>Ответственность:</i> Руководство сержантами, поддержание дисциплины и стандартов выполнения задач, советник командира по вопросам личного состава.</li> 
+            </ul>
+            <li><b>Офицер по операциям <small>(Operations Officer, S3)</small>:</b></li>
+            <ul>
+                <li> <i>Звание:</i> Майор или капитан <small>(Major/Captain)</small></li>
+                <li><i>Ответственность:</i> Планирование и координация операций, разработка тактических планов, управление учениями и тренировками.</li>
+            </ul>
+            <li><b>Офицер по логистике <small>(Logistics Officer, S4):</small></b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан <small>(Captain)</small></li>
+                <li><i>Ответственность:</i> Управление снабжением, транспортом и материально-техническим обеспечением батальона.</li>
+            </ul>
+            <li><b>Офицер по разведке <small>(Intelligence Officer, S2)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Сбор и анализ разведывательной информации, обеспечение безопасности информации.</li>
+            </ul>
+            <li><b>Офицер по персоналу <small>(Personnel Officer, S1)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Управление кадровыми вопросами, администрирование личного состава, моральное состояние солдат.</li>
+            </ul>
+            <li> <b>Офицер по гражданским делам <small>(Civil Affairs Officer)</small>:</b></li>
+            <ul>
+                <li><i>Звание:</i> Капитан или лейтенант <small>(Captain/Lieutenant)</small></li>
+                <li><i>Ответственность:</i> Координация взаимодействия с гражданским населением и местными властями в зоне операций.</li>
+            </ul>
+    </ol>
   ol{
     line-height: 2;
   }
@@ -116,14 +279,20 @@ function content_load(buttonId) {
     </textarea>`;
             break;
         case 'btn5':
-            content = `<textarea rows="6" cols="35"> 
+            content = `
+            <img src="img/lab1/image2.4.png" alt="" style="width:900px;"><br>
+            <textarea rows="6" cols="35"> 
+             <div class="class1">fvdvfidjvodvidofvjfdo</div>
              .class1{
     border: 1px solid #111;
     margin: 10px;
   }</textarea>`;
             break;
         case 'btn6':
-            content = `<textarea rows="8" cols="35">  
+            content = `
+            <img src="img/lab1/image2.5.png" alt="" style="width:900px;"><br>
+            <textarea rows="8" cols="35">  
+            <img src="phorm.webp" alt="" id="img1">
   #img1{
     display: block;
     margin-left: auto;
@@ -141,6 +310,8 @@ function content_load(buttonId) {
 #img1:hover{
 width: 70%;
   }
+*{
+}
 </textarea>
 `;
             break;
