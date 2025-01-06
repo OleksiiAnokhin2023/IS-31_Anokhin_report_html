@@ -30,7 +30,8 @@ function content_load(buttonId) {
            
             break;
         case 'btn2':
-            content = `<textarea rows="50" cols="80">
+            content = ` <img src="img/lab8/image.png" alt="" style="width:900px;"><br>
+            <textarea rows="50" cols="80">
 
             index.html
 
@@ -256,7 +257,8 @@ const Open_modal_window = (img)=>{
             `;
             break;
         case 'btn3':
-            content = `<textarea rows="50" cols="80">
+            content = ` <img src="img/lab8/image2.png" alt="" style="width:900px;"><br>
+            <textarea rows="50" cols="80">
 2-form.html
 
 <!DOCTYPE html>
